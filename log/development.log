@@ -856,3 +856,351 @@ Processing by PythonController#new as HTML
 Completed 200 OK in 1963ms (Views: 1894.2ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-09 15:19:08 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /usr/local/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 858ms (Views: 33.8ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:19:15 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 599ms (Views: 590.6ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:24:58 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 580ms (Views: 268.7ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:25:18 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 490ms (Views: 208.1ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:28:17 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 543ms (Views: 221.1ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:33:56 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 488ms (Views: 222.9ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:34:47 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 530ms (Views: 202.8ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:35:47 -0300
+Processing by PythonController#new as HTML
+Completed 500 Internal Server Error in 582ms
+
+
+  
+NameError (undefined local variable or method `time' for #<PythonController:0x000055714adcd7f8>
+Did you mean?  timeout):
+  
+app/controllers/python_controller.rb:21:in `new'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:37:24 -0300
+Processing by PythonController#new as HTML
+Completed 500 Internal Server Error in 479ms
+
+
+  
+NameError (undefined local variable or method `time' for #<PythonController:0x0000560afa14f518>
+Did you mean?  timeout):
+  
+app/controllers/python_controller.rb:21:in `new'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:37:40 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 525ms (Views: 237.9ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:38:17 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 754ms (Views: 296.0ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:40:45 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 463ms (Views: 186.6ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:41:49 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 524ms (Views: 224.5ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:43:05 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 368ms (Views: 221.5ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:44:47 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 438ms (Views: 172.2ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:45:59 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 461ms (Views: 185.3ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:47:36 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 530ms (Views: 205.0ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:49:42 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (4.3ms)
+Completed 200 OK in 433ms (Views: 176.7ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:50:12 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 541ms (Views: 174.9ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:52:22 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 512ms (Views: 195.1ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:53:08 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 395ms (Views: 174.2ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:54:24 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 523ms (Views: 186.1ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:55:28 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 454ms (Views: 195.8ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:56:11 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 563ms (Views: 237.9ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:57:09 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 397ms (Views: 183.7ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:58:55 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 551ms (Views: 275.4ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 15:59:03 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 60ms (Views: 44.3ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:02:19 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 1116ms (Views: 503.1ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:03:53 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 890ms (Views: 416.2ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:07:58 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 1219ms (Views: 457.7ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:09:43 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 869ms (Views: 344.0ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:11:04 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 829ms (Views: 309.9ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:11:56 -0300
+Processing by PythonController#new as HTML
+Completed 500 Internal Server Error in 508ms
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/python_controller.rb:41:in `detach'
+app/controllers/python_controller.rb:41:in `new'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:13:18 -0300
+Processing by PythonController#new as HTML
+Completed 500 Internal Server Error in 630ms
+
+
+  
+TypeError (no implicit conversion from nil to integer):
+  
+app/controllers/python_controller.rb:41:in `detach'
+app/controllers/python_controller.rb:41:in `new'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:13:40 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.5ms)
+Completed 200 OK in 1009ms (Views: 395.8ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:14:51 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 875ms (Views: 407.1ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:42:10 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 590ms (Views: 268.8ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:56:13 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 587ms (Views: 240.7ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:57:12 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 641ms (Views: 298.6ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:58:08 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 531ms (Views: 191.0ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 16:59:48 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 769ms (Views: 323.2ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 17:00:51 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 702ms (Views: 298.8ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 17:01:03 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (4.6ms)
+Completed 200 OK in 863ms (Views: 380.8ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 17:25:59 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 791ms (Views: 255.5ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 17:26:38 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.1ms)
+Completed 200 OK in 637ms (Views: 274.6ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 17:30:10 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (13.1ms)
+Completed 200 OK in 660ms (Views: 334.2ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 17:30:27 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.9ms)
+Completed 200 OK in 626ms (Views: 274.8ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 17:32:18 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 89ms (Views: 69.6ms)
+
+

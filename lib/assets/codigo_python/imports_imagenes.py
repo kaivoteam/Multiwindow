@@ -45,7 +45,7 @@ def inicializar(nombre_imagen,giro_derecha,folder):
     cara_frente,cara_derecha,cara_izquierda,cara_atras = rotar_imagenes(caras_memoria,rotacion)
     imagen_Final = posicionar_imagen(mascara,cara_frente,cara_izquierda,cara_derecha,cara_atras)
 
-    imagen_Final.show()
+    imagen_Final.save('imagen_generada.png')
 
 
 #####-------CODIGO PARA MOVER-----------------------
@@ -87,7 +87,8 @@ def hacer(opcion,cantidad=0,texto_proyectar=""):
         memoria = False
 
     elif opcion == '0': #Nueva funcion: reset
-        tipo_reset = raw_input("Ingrese tipo:\n1 Giro\n2 Zoom\n3 Rotacion\n0 Todas\n")
+        #tipo_reset = raw_input("Ingrese tipo:\n1 Giro\n2 Zoom\n3 Rotacion\n0 Todas\n")
+        tipo_reset = "0"
         reset(tipo_reset)
         memoria = False
 
