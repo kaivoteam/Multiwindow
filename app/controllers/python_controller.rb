@@ -5,16 +5,20 @@ class PythonController < ApplicationController
   	pwd= Rails.root.to_s
   	imagenes_folder = pwd+"/lib/assets/codigo_python/imagenes/"
 
+    # Ubuntu
   	job1 = fork do
   		exec("python lib/assets/codigo_python/integracion.py "+nombre_imagen+" 1 "+imagenes_folder) #genera imagenes
   	 #para ejecutar es necesario "nombre de imagen + carpeta de imagenes + giro gif"
     end
 
-    print "HOLA MUNDO-----------------------"
-
     job2 = fork do 
       exec("python lib/assets/codigo_python/checkeo_imagen.py "+pwd) #actualiza imagenes en una ventana
     end
+
+    #En win
+
+    #job1 = Process.spawn("python lib/assets/codigo_python/integracion.py "+nombre_imagen+" 1 "+imagenes_folder)
+    #job2 = Process.spawn("python lib/assets/codigo_python/checkeo_imagen.py "+pwd)
 
   	Process.detach(job1)
     Process.detach(job2)

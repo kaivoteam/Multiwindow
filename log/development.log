@@ -656,3 +656,203 @@ Processing by PythonController#new as HTML
 Completed 200 OK in 8588ms (Views: 3060.1ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-08 14:46:12 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Users/fabian/Documents/USM/FESW/rubyinstaller-2.4.1-2-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Users/fabian/Documents/USM/FESW/rubyinstaller-2.4.1-2-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
+Completed 200 OK in 2749ms (Views: 209.4ms)
+
+
+Started GET "/create" for 127.0.0.1 at 2017-10-08 14:46:41 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/create"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/new" for 127.0.0.1 at 2017-10-08 14:47:14 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/new"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/python_controller" for 127.0.0.1 at 2017-10-08 14:48:35 -0300
+  
+ActionController::RoutingError (No route matches [GET] "/python_controller"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/" for 127.0.0.1 at 2017-10-08 14:49:57 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Users/fabian/Documents/USM/FESW/rubyinstaller-2.4.1-2-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Users/fabian/Documents/USM/FESW/rubyinstaller-2.4.1-2-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 132ms (Views: 57.4ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-08 14:50:48 -0300
+Processing by PythonController#new as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+NotImplementedError (fork() function is unimplemented on this machine):
+  
+app/controllers/python_controller.rb:8:in `fork'
+app/controllers/python_controller.rb:8:in `new'
+Started GET "/" for 127.0.0.1 at 2017-10-08 14:56:49 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Users/fabian/Documents/USM/FESW/rubyinstaller-2.4.1-2-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Users/fabian/Documents/USM/FESW/rubyinstaller-2.4.1-2-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 136ms (Views: 56.4ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-08 14:56:55 -0300
+Processing by PythonController#new as HTML
+Completed 500 Internal Server Error in 0ms
+
+
+  
+NotImplementedError (fork() function is unimplemented on this machine):
+  
+app/controllers/python_controller.rb:8:in `fork'
+app/controllers/python_controller.rb:8:in `new'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-08 15:03:43 -0300
+Processing by PythonController#new as HTML
+Completed 500 Internal Server Error in 425ms
+
+
+  
+NotImplementedError (fork() function is unimplemented on this machine):
+  
+app/controllers/python_controller.rb:8:in `fork'
+app/controllers/python_controller.rb:8:in `new'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-08 15:12:08 -0300
+  
+SyntaxError (C:/Users/fabian/Documents/USM/FESW/Multiwindow/app/controllers/python_controller.rb:8: syntax error, unexpected ':', expecting keyword_end
+    try:
+        ^
+C:/Users/fabian/Documents/USM/FESW/Multiwindow/app/controllers/python_controller.rb:14: syntax error, unexpected ':', expecting keyword_end
+    except:
+           ^
+C:/Users/fabian/Documents/USM/FESW/Multiwindow/app/controllers/python_controller.rb:21: syntax error, unexpected ':', expecting keyword_end
+    try:
+        ^
+C:/Users/fabian/Documents/USM/FESW/Multiwindow/app/controllers/python_controller.rb:26: syntax error, unexpected ':', expecting keyword_end
+    except:
+           ^
+C:/Users/fabian/Documents/USM/FESW/Multiwindow/app/controllers/python_controller.rb:36: syntax error, unexpected keyword_end, expecting end-of-input
+  end
+     ^):
+  
+app/controllers/python_controller.rb:8: syntax error, unexpected ':', expecting keyword_end
+app/controllers/python_controller.rb:14: syntax error, unexpected ':', expecting keyword_end
+app/controllers/python_controller.rb:21: syntax error, unexpected ':', expecting keyword_end
+app/controllers/python_controller.rb:26: syntax error, unexpected ':', expecting keyword_end
+app/controllers/python_controller.rb:36: syntax error, unexpected keyword_end, expecting end-of-input
+Started GET "/python/new" for 127.0.0.1 at 2017-10-08 15:18:44 -0300
+Processing by PythonController#new as HTML
+Completed 500 Internal Server Error in 188ms
+
+
+  
+NameError (undefined local variable or method `job2' for #<PythonController:0x00000006314010>
+Did you mean?  job1):
+  
+app/controllers/python_controller.rb:24:in `new'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-08 15:23:32 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 2373ms (Views: 1919.8ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 12:59:01 -0300
+Processing by PythonController#new as HTML
+Completed 500 Internal Server Error in 2654ms
+
+
+  
+NameError (undefined local variable or method `win' for #<PythonController:0x000000061a8398>):
+  
+app/controllers/python_controller.rb:15:in `new'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-09 12:59:21 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 1963ms (Views: 1894.2ms)
+
+

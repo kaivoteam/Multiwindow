@@ -81,7 +81,8 @@ class Application(tk.Tk): # I buried this in a class. I prefer that for tk
 
 if __name__ == "__main__":
 	folder = sys.argv[1]
-
 	root = Application()
 	grande = FullScreenApp(root)
+	sw,sh = root.winfo_screenwidth(),root.winfo_screenheight()
+	root.geometry('%sx%s+%s+%s'%(sw,sh,sw,0))
 	root.mainloop()
