@@ -21,6 +21,7 @@ from imports_imagenes import *
 name_image = sys.argv[1]#raw_input("Nombre de imagen GIF: ")
 giro_derecha = sys.argv[2]
 folder = sys.argv[3]
+folder_reset = sys.argv[4]
 
 inicializar(name_image,giro_derecha,folder)
 
@@ -60,6 +61,15 @@ class SampleListener(Leap.Listener):
         print "Exited"
 
     def on_frame(self, controller):
+        #chequear si hay un reset
+        if os.path.exists(folder_reset+"/reset"):
+            ##reset elegante
+            print("acaba de acontecer un reset")
+            #inicializar(name_image,giro_derecha,folder)
+            hacer("0")
+            os.remove(folder_reset+"/reset")
+            return
+
         # Get the most recent frame and report some basic information
         cont = 1
         frame = controller.frame()

@@ -51,6 +51,8 @@ def inicializar(nombre_imagen,giro_derecha,folder):
 #####-------CODIGO PARA MOVER-----------------------
 def hacer(opcion,cantidad=0,texto_proyectar=""):
     global current,zoom,rotacion,giro_imagen_gif_derecha,frames
+    print "current es : ",current
+    print "zoom es: ",zoom
     #definir cual es el mensaje de "opcion" que se manda
 
     memoria = True
@@ -123,12 +125,13 @@ def hacer(opcion,cantidad=0,texto_proyectar=""):
         #tamanno maximo permitido (calibrar)
         tamanno_mascara = tamanno_mascara_min()
         tamanno_actual = int( aspecto_normal(tamanno_mascara) * zoom )
+        global w,h
         if zoom <= 0 or tamanno_actual <= 20: #tamano minimo permitido
             limite = True
             texto_proyectar = "zoom minimo"
             #remueve el zoom aplicado
             zoom+=cantidad
-        elif tamanno_actual >= 1000: #tamanno maximo permitido
+        elif zoom>=2.3: #tamanno maximo permitido
             limite=True
             texto_proyectar = "zoom maximo"
             #remueve el zoom aplicado
@@ -505,7 +508,7 @@ def colocar_texto(caras,texto,limite=False):
         texto += " alcanzado" 
     for cara in caras:
         if limite:
-            tamanno = 18
+            tamanno = 50
             color = 'yellow' # or red
         else:
             tamanno = 20

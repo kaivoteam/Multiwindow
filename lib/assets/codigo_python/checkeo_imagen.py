@@ -4,9 +4,6 @@ from imports_imagenes import * #del codigo imports_imagenes.py
 
 if __name__ == "__main__":
 	folder = sys.argv[1]
-	name_image = sys.argv[2]
-	giro = sys.argv[3]
-	folder_imagenes = sys.argv[4]
 
 	finput = folder+'/imagen_generada.png' #nombre standar para la imagen
 	foutput = folder+'/imagen_mostrada.png'
@@ -14,14 +11,6 @@ if __name__ == "__main__":
 	while(True):
 		print "esperando que se cree el archivo"
 		while( not os.path.exists(finput)):
-			#chequear si se hace reset y
-
-			if os.path.exists(folder+"/reset"):
-				##reset elegante
-				print("acaba de acontecer un reset")
-				inicializar(name_image,giro,folder_imagenes)
-				os.remove(folder+"/reset")
-
 			time.sleep(0.001)
 		
 		print("esperando que aumente el tamanno")

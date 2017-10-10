@@ -15,12 +15,12 @@ class PythonController < ApplicationController
       job3 = Process.spawn("python lib/assets/codigo_python/vista_imagen.py "+pwd)
     else
     	job1 = fork do
-    		exec("python lib/assets/codigo_python/leer_leapmotion.py "+nombre_imagen+" 1 "+imagenes_folder) #genera imagenes
+    		exec("python lib/assets/codigo_python/leer_leapmotion.py "+nombre_imagen+" 1 "+imagenes_folder+ " "+pwd) #genera imagenes
     	 #para ejecutar es necesario "nombre de imagen + carpeta de imagenes + giro gif"
       end
 
       job2 = fork do 
-        exec("python lib/assets/codigo_python/checkeo_imagen.py "+pwd+" "+nombre_imagen+" 1 "+imagenes_folder) #actualiza imagenes en una ventana
+        exec("python lib/assets/codigo_python/checkeo_imagen.py "+pwd) #actualiza imagenes en una ventana
         #necesito argumentos de job1 y job2
       end
 

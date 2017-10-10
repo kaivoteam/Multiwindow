@@ -1,6 +1,15 @@
 import os.path, os,time,sys
 from PIL import Image,ImageTk #para abrir la imagen
 
+def is_image_ok(fn,self):
+	try:
+		image = Image.open(fn)
+		self.tkpi = ImageTk.PhotoImage(image)
+		self.image_label.configure(image=self.tkpi)
+		return True
+	except:
+		return False
+
 try:
     import Tkinter as tk # this is for python2
 except:
@@ -45,16 +54,15 @@ class Application(tk.Tk): # I buried this in a class. I prefer that for tk
 		foutput = folder+'/imagen_mostrada.png'
 
 		"""
-		while not os.path.exists(finput):
-			print "esperando que se cree el archivo"
-			#time.sleep(0.01)
-			self.after(self.CYCLEDELAY,self.changeImage)
+		while( not os.path.exists(foutput)):
+			#print "esperando que se cree el archivo"
+			time.sleep(0.01)
 
-		while os.path.getsize(finput) == 0: #no lea antes que se llene
-			print "esperando que aumente el tamanno"
-			#time.sleep(0.01)
-			self.after(self.CYCLEDELAY,self.changeImage)
+		while(os.path.getsize(foutput) == 0): #no lea antes que se llene
+			#print "esperando que aumente el tamanno"
+			time.sleep(0.01)
 
+		
 		print "archivo creado.."
 
 		if os.path.exists(foutput):
@@ -64,6 +72,10 @@ class Application(tk.Tk): # I buried this in a class. I prefer that for tk
 		#foutput es la imagen que se utilizara
 		"""
 
+		while(not is_image_ok(foutput,self)):
+			time.sleep(0.001)
+
+		"""
 		image = Image.open(foutput)
 		# you had a funky method of getting a random member here. I cleaned it up
 
@@ -77,6 +89,7 @@ class Application(tk.Tk): # I buried this in a class. I prefer that for tk
 
 		self.tkpi = ImageTk.PhotoImage(image)
 		self.image_label.configure(image=self.tkpi)
+		"""
 
 		# configure the label to use the PhotoImage
 		self.after(self.CYCLEDELAY,self.changeImage)
