@@ -10,8 +10,8 @@ class PythonController < ApplicationController
 
     #En win
     if OS.windows?  #=> true or false
-      job1 = Process.spawn("python lib/assets/codigo_python/leer_leapmotion.py "+nombre_imagen+" 1 "+imagenes_folder)
-      job2 = Process.spawn("python lib/assets/codigo_python/checkeo_imagen.py "+pwd+" "+nombre_imagen+" 1 "+imagenes_folder)
+      job1 = Process.spawn("python lib/assets/codigo_python/leer_leapmotion.py "+nombre_imagen+" 1 "+imagenes_folder+" "+pwd)
+      job2 = Process.spawn("python lib/assets/codigo_python/checkeo_imagen.py "+pwd)
       job3 = Process.spawn("python lib/assets/codigo_python/vista_imagen.py "+pwd)
     else
     	job1 = fork do
