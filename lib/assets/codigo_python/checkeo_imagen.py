@@ -18,17 +18,17 @@ if __name__ == "__main__":
 
 			if os.path.exists(folder+"/reset"):
 				##reset elegante
-				print "acaba de acontecer un reset"
+				print("acaba de acontecer un reset")
 				inicializar(name_image,giro,folder_imagenes)
 				os.remove(folder+"/reset")
 
 			time.sleep(0.001)
 		
-		print "esperando que aumente el tamanno"
+		print("esperando que aumente el tamanno")
 		while(os.path.getsize(finput) == 0): #no lea antes que se llene
 			time.sleep(0.001)
 
-		print "archivo creado.."
+		print("archivo creado..")
 
 		if os.path.exists(foutput):
 			os.remove(foutput) #elminate

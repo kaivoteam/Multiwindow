@@ -434,11 +434,16 @@ def rotar_imagenes(caras,rotacion=0):
     return nuevas_caras
 
 #para obtener las dimensiones de la pantalla en la que se abre la ventana
-import Tkinter
-root = Tkinter.Tk()
-root.withdraw()
+from screeninfo import get_monitors
+def dimension_externo():
+    dimensiones = []
+    for m in get_monitors():
+        dimensiones.append(str(m)[8:-1])
+    w = int(dimensiones[-1].split('x')[0])
+    h = int(dimensiones[-1].split('x')[-1].split('+')[0])
+    return(w,h)
 
-w,h =  root.winfo_screenwidth(), root.winfo_screenheight()#1280,720
+w,h=dimension_externo()
 
 def crear_mascara():
     """ Descripcion:
