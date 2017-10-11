@@ -39,5 +39,13 @@ class PythonController < ApplicationController
   end
 
   def create
+    nombre_archivo = 'reset.txt'
+    ruta_creacion = "lib/assets/codigo_python/" + nombre_archivo
+    filename = Rails.root.join(ruta_creacion)
+    File.open(filename, 'wb') do |file|
+      file << "Este archivo se originó por un movimiento reset"
+    end
   end
+
+  
 end

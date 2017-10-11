@@ -1470,3 +1470,551 @@ Processing by PythonController#new as HTML
 Completed 200 OK in 465ms (Views: 219.7ms)
 
 
+Started GET "/" for 127.0.0.1 at 2017-10-11 02:22:48 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Users/fabian/Documents/USM/FESW/rubyinstaller-2.4.1-2-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Users/fabian/Documents/USM/FESW/rubyinstaller-2.4.1-2-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (5.0ms)
+Completed 200 OK in 2079ms (Views: 154.1ms)
+
+
+Started GET "/" for 127.0.0.1 at 2017-10-11 02:22:57 -0300
+Processing by Rails::WelcomeController#index as HTML
+  Rendering C:/Users/fabian/Documents/USM/FESW/rubyinstaller-2.4.1-2-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered C:/Users/fabian/Documents/USM/FESW/rubyinstaller-2.4.1-2-x64/lib/ruby/gems/2.4.0/gems/railties-5.1.4/lib/rails/templates/rails/welcome/index.html.erb (3.0ms)
+Completed 200 OK in 111ms (Views: 57.5ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 02:23:00 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 1826ms (Views: 1706.9ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:37:29 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 226ms (Views: 186.0ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:37:45 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 234ms (Views: 196.4ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:39:52 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 212ms (Views: 180.6ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:47:13 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /lib/assets/codigo_python/reset.txt):
+  
+app/controllers/python_controller.rb:44:in `initialize'
+app/controllers/python_controller.rb:44:in `open'
+app/controllers/python_controller.rb:44:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:48:05 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /public/reset.txt):
+  
+app/controllers/python_controller.rb:44:in `initialize'
+app/controllers/python_controller.rb:44:in `open'
+app/controllers/python_controller.rb:44:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:52:02 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /public/reset.txt):
+  
+app/controllers/python_controller.rb:44:in `initialize'
+app/controllers/python_controller.rb:44:in `open'
+app/controllers/python_controller.rb:44:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:52:39 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 209ms (Views: 177.4ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:53:57 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /public/pruebita.txt):
+  
+app/controllers/python_controller.rb:43:in `initialize'
+app/controllers/python_controller.rb:43:in `open'
+app/controllers/python_controller.rb:43:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:55:04 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 3ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /public/pruebita.txt):
+  
+app/controllers/python_controller.rb:46:in `initialize'
+app/controllers/python_controller.rb:46:in `open'
+app/controllers/python_controller.rb:46:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:55:32 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /public/caca.txt):
+  
+app/controllers/python_controller.rb:44:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:56:30 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /public/caca.txt):
+  
+app/controllers/python_controller.rb:45:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:56:51 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+Errno::EACCES (Permission denied @ rb_sysopen - /public):
+  
+app/controllers/python_controller.rb:46:in `initialize'
+app/controllers/python_controller.rb:46:in `open'
+app/controllers/python_controller.rb:46:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:57:32 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::EACCES (Permission denied @ rb_sysopen - /caca.txt):
+  
+app/controllers/python_controller.rb:45:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 02:59:27 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /public/reset.txt):
+  
+app/controllers/python_controller.rb:44:in `initialize'
+app/controllers/python_controller.rb:44:in `open'
+app/controllers/python_controller.rb:44:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:01:51 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - /public/text.txt):
+  
+app/controllers/python_controller.rb:44:in `initialize'
+app/controllers/python_controller.rb:44:in `open'
+app/controllers/python_controller.rb:44:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:04:42 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 209ms (Views: 178.2ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:05:08 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 220ms (Views: 187.4ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:06:28 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - C:/Users/fabian/Documents/USM/FESW/Multiwindow/lib/codigo_python/reset.txt):
+  
+app/controllers/python_controller.rb:44:in `initialize'
+app/controllers/python_controller.rb:44:in `open'
+app/controllers/python_controller.rb:44:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:07:30 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 214ms (Views: 183.1ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:07:56 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - C:/Users/fabian/Documents/USM/FESW/Multiwindow/lib/codigo_python/reset.txt):
+  
+app/controllers/python_controller.rb:44:in `initialize'
+app/controllers/python_controller.rb:44:in `open'
+app/controllers/python_controller.rb:44:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:08:28 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 222ms (Views: 185.2ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:09:01 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 2ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - C:/Users/fabian/Documents/USM/FESW/Multiwindow/lib/codigo_python/reset.txt):
+  
+app/controllers/python_controller.rb:44:in `initialize'
+app/controllers/python_controller.rb:44:in `open'
+app/controllers/python_controller.rb:44:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:09:21 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - C:/Users/fabian/Documents/USM/FESW/Multiwindow/lib/'codigo_python'/reset.txt):
+  
+app/controllers/python_controller.rb:44:in `initialize'
+app/controllers/python_controller.rb:44:in `open'
+app/controllers/python_controller.rb:44:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:09:44 -0300
+Processing by PythonController#create as HTML
+Completed 500 Internal Server Error in 1ms
+
+
+  
+Errno::ENOENT (No such file or directory @ rb_sysopen - C:/Users/fabian/Documents/USM/FESW/Multiwindow/lib/codigo_python/reset.txt):
+  
+app/controllers/python_controller.rb:44:in `initialize'
+app/controllers/python_controller.rb:44:in `open'
+app/controllers/python_controller.rb:44:in `create'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:10:26 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 339ms (Views: 306.5ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:12:29 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 255ms (Views: 209.6ms)
+
+
+Started POST "/python/new?method=create" for 127.0.0.1 at 2017-10-11 03:12:31 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/python/new"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:13:10 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 339ms (Views: 243.3ms)
+
+
+Started POST "/python/new?method=python_create_path" for 127.0.0.1 at 2017-10-11 03:13:11 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/python/new"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:13:30 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 308ms (Views: 226.0ms)
+
+
+Started POST "/python/new?path=python_create_path" for 127.0.0.1 at 2017-10-11 03:13:31 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/python/new"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:13:57 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (30.0ms)
+Completed 500 Internal Server Error in 213ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"python_create_path", :controller=>"python"}):
+    1: <h1>Python#new</h1>
+    2: <p>Find me in app/views/python/new.html.erb</p>
+    3: <%= button_to "Reset", :action=> "python_create_path" %>
+    4: 
+  
+app/views/python/new.html.erb:3:in `_app_views_python_new_html_erb___1769618891_112344800'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:15:19 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (48.0ms)
+Completed 500 Internal Server Error in 269ms
+
+
+  
+ActionView::Template::Error (No route matches {:action=>"create_path", :controller=>"python"}):
+    1: <h1>Python#new</h1>
+    2: <p>Find me in app/views/python/new.html.erb</p>
+    3: <%= button_to "Reset", :action=> "create_path" %>
+    4: 
+  
+app/views/python/new.html.erb:3:in `_app_views_python_new_html_erb___1769618891_111596640'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:15:34 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 325ms (Views: 250.5ms)
+
+
+Started POST "/python/create" for 127.0.0.1 at 2017-10-11 03:15:36 -0300
+  
+ActionController::RoutingError (No route matches [POST] "/python/create"):
+  
+actionpack (5.1.4) lib/action_dispatch/middleware/debug_exceptions.rb:63:in `call'
+web-console (3.5.1) lib/web_console/middleware.rb:135:in `call_app'
+web-console (3.5.1) lib/web_console/middleware.rb:28:in `block in call'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `catch'
+web-console (3.5.1) lib/web_console/middleware.rb:18:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/show_exceptions.rb:31:in `call'
+railties (5.1.4) lib/rails/rack/logger.rb:36:in `call_app'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `block in call'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `block in tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:26:in `tagged'
+activesupport (5.1.4) lib/active_support/tagged_logging.rb:69:in `tagged'
+railties (5.1.4) lib/rails/rack/logger.rb:24:in `call'
+sprockets-rails (3.2.1) lib/sprockets/rails/quiet_assets.rb:13:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/remote_ip.rb:79:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/request_id.rb:25:in `call'
+rack (2.0.3) lib/rack/method_override.rb:22:in `call'
+rack (2.0.3) lib/rack/runtime.rb:22:in `call'
+activesupport (5.1.4) lib/active_support/cache/strategy/local_cache_middleware.rb:27:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/executor.rb:12:in `call'
+actionpack (5.1.4) lib/action_dispatch/middleware/static.rb:125:in `call'
+rack (2.0.3) lib/rack/sendfile.rb:111:in `call'
+railties (5.1.4) lib/rails/engine.rb:522:in `call'
+puma (3.10.0) lib/puma/configuration.rb:225:in `call'
+puma (3.10.0) lib/puma/server.rb:605:in `handle_request'
+puma (3.10.0) lib/puma/server.rb:437:in `process_client'
+puma (3.10.0) lib/puma/server.rb:301:in `block in run'
+puma (3.10.0) lib/puma/thread_pool.rb:120:in `block in spawn_thread'
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:16:52 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 243ms (Views: 185.3ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:17:09 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 219ms (Views: 176.2ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:17:14 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 309ms (Views: 225.1ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:17:17 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 213ms (Views: 174.4ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:18:27 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 292ms (Views: 211.2ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:18:29 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 261ms (Views: 221.1ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:18:40 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 288ms (Views: 212.2ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:18:42 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 231ms (Views: 193.9ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:20:07 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 302ms (Views: 227.1ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:20:08 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 281ms (Views: 228.3ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:20:15 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 212ms (Views: 169.9ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:20:19 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 302ms (Views: 221.7ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:20:29 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 297ms (Views: 232.4ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:20:38 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 323ms (Views: 256.3ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 03:22:00 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 326ms (Views: 220.5ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 03:22:01 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 267ms (Views: 230.9ms)
+
+
