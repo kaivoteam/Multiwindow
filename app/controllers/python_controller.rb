@@ -4,18 +4,19 @@ class PythonController < ApplicationController
     nombre_imagen = "corazon"
   	pwd= Rails.root.to_s
   	imagenes_folder = pwd+"/lib/assets/codigo_python/imagenes/"
+    reset_folder = pwd+'/lib/assets/codigo_python/'
 
     # Ubuntu
     require 'os'
 
     #En win
     if OS.windows?  #=> true or false
-      job1 = Process.spawn("python lib/assets/codigo_python/leer_leapmotion.py "+nombre_imagen+" 1 "+imagenes_folder+" "+pwd)
+      job1 = Process.spawn("python lib/assets/codigo_python/leer_leapmotion.py "+nombre_imagen+" 1 "+imagenes_folder+" "+reset_folder)
       job2 = Process.spawn("python lib/assets/codigo_python/checkeo_imagen.py "+pwd)
       job3 = Process.spawn("python lib/assets/codigo_python/vista_imagen.py "+pwd)
-    else
+    else 
     	job1 = fork do
-    		exec("python lib/assets/codigo_python/leer_leapmotion.py "+nombre_imagen+" 1 "+imagenes_folder+ " "+pwd) #genera imagenes
+    		exec("python lib/assets/codigo_python/leer_leapmotion.py "+nombre_imagen+" 1 "+imagenes_folder+ " "+reset_folder) #genera imagenes
     	 #para ejecutar es necesario "nombre de imagen + carpeta de imagenes + giro gif"
       end
 
@@ -45,6 +46,8 @@ class PythonController < ApplicationController
     File.open(filename, 'wb') do |file|
       file << "Este archivo se originó por un movimiento reset"
     end
+
+    sleep 3
   end
 
   

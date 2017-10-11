@@ -62,12 +62,12 @@ class SampleListener(Leap.Listener):
 
     def on_frame(self, controller):
         #chequear si hay un reset
-        if os.path.exists(folder_reset+"/reset"):
+        if os.path.exists(folder_reset+"reset.txt"):
             ##reset elegante
             print("acaba de acontecer un reset")
             #inicializar(name_image,giro_derecha,folder)
             hacer("0")
-            os.remove(folder_reset+"/reset")
+            os.remove(folder_reset+"reset.txt")
             return
 
         # Get the most recent frame and report some basic information

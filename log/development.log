@@ -2018,3 +2018,228 @@ Processing by PythonController#create as HTML
 Completed 200 OK in 267ms (Views: 230.9ms)
 
 
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 08:36:28 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (5.2ms)
+Completed 200 OK in 4160ms (Views: 1543.6ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 08:37:08 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 135ms (Views: 95.8ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 08:37:27 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.3ms)
+Completed 200 OK in 36ms (Views: 34.0ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 08:43:03 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 535ms (Views: 246.5ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 08:43:23 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 31ms (Views: 28.4ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 08:43:52 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 36ms (Views: 34.9ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 08:51:15 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 514ms (Views: 298.6ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 08:51:21 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 5111ms (Views: 104.3ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 10:02:27 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 515ms (Views: 271.1ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 10:04:15 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.2ms)
+Completed 200 OK in 342ms (Views: 141.7ms)
+
+
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 10:05:19 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.4ms)
+Completed 500 Internal Server Error in 658ms
+
+
+  
+ActionView::Template::Error (Permission denied @ utime_internal - /home/panshop/Desktop/Tareas/Feria/Multiwindow/tmp/cache/assets/sprockets/v3.0/VL/VLX4Xw78urqfCo06c_H6JQzh0Wga9lDJpPbPTgaxGi0.cache):
+    4:     <title>Pruebita1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb___1737088286403306498_70059543555120'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 10:06:34 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (2.1ms)
+Completed 500 Internal Server Error in 538ms
+
+
+  
+ActionView::Template::Error (Permission denied @ utime_internal - /home/panshop/Desktop/Tareas/Feria/Multiwindow/tmp/cache/assets/sprockets/v3.0/VL/VLX4Xw78urqfCo06c_H6JQzh0Wga9lDJpPbPTgaxGi0.cache):
+    4:     <title>Pruebita1</title>
+    5:     <%= csrf_meta_tags %>
+    6: 
+    7:     <%= stylesheet_link_tag    'application', media: 'all', 'data-turbolinks-track': 'reload' %>
+    8:     <%= javascript_include_tag 'application', 'data-turbolinks-track': 'reload' %>
+    9:   </head>
+   10: 
+  
+app/views/layouts/application.html.erb:7:in `_app_views_layouts_application_html_erb__3720061065906346194_70307845850780'
+Started GET "/python/new" for 127.0.0.1 at 2017-10-11 10:07:05 -0300
+Processing by PythonController#new as HTML
+  Rendering python/new.html.erb within layouts/application
+  Rendered python/new.html.erb within layouts/application (1.3ms)
+Completed 200 OK in 561ms (Views: 298.2ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:07:45 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 3031ms (Views: 26.8ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:28 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.9ms)
+Completed 200 OK in 3029ms (Views: 26.9ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:39 -0300
+Processing by PythonController#create as HTML
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:39 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3018ms (Views: 16.1ms)
+
+
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3046ms (Views: 43.3ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:42 -0300
+Processing by PythonController#create as HTML
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:44 -0300
+Processing by PythonController#create as HTML
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:44 -0300
+Processing by PythonController#create as HTML
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:45 -0300
+Processing by PythonController#create as HTML
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:45 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (1.8ms)
+Completed 200 OK in 3091ms (Views: 87.7ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:45 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3022ms (Views: 19.6ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:47 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3016ms (Views: 14.6ms)
+
+
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3020ms (Views: 18.6ms)
+
+
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.1ms)
+Completed 200 OK in 3014ms (Views: 10.8ms)
+
+
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3060ms (Views: 57.0ms)
+
+
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3051ms (Views: 48.1ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:52 -0300
+Processing by PythonController#create as HTML
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:53 -0300
+Processing by PythonController#create as HTML
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:54 -0300
+Processing by PythonController#create as HTML
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:55 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.7ms)
+Completed 200 OK in 3022ms (Views: 20.5ms)
+
+
+Started GET "/python/create" for 127.0.0.1 at 2017-10-11 10:08:56 -0300
+Processing by PythonController#create as HTML
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3021ms (Views: 16.0ms)
+
+
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.2ms)
+Completed 200 OK in 3021ms (Views: 16.2ms)
+
+
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 3054ms (Views: 50.0ms)
+
+
+  Rendering python/create.html.erb within layouts/application
+  Rendered python/create.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 3068ms (Views: 63.9ms)
+
+
