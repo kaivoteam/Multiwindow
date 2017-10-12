@@ -100,19 +100,27 @@ if __name__ == "__main__":
 	root = Application()
 	grande = FullScreenApp(root)
 	sw,sh = root.winfo_screenwidth(),root.winfo_screenheight()
-	root.geometry('%sx%s+%s+%s'%(sw,sh,sw,0))
+	
+
+	#Con 1 monitor
+	from screeninfo import get_monitors
+	if(len(get_monitors())==1):
+		root.geometry('%sx%s+%s+%s'%(sw,sh,0,0))
+	else:
+		root.geometry('%sx%s+%s+%s'%(sw,sh,sw,0))
+
 
 	#wait until first imagen is created
 	foutput = folder+'/imagen_mostrada.png'
 
-	print "esperando que se cree el archivo"
+	print "esperando que se cree el archivo (5)"
 	while not os.path.exists(foutput):
 		time.sleep(0.001)
 
-	print "esperando que aumente el tamanno"
+	print "esperando que aumente el tamanno (6)"
 	while os.path.getsize(foutput) == 0: #no lea antes que se llene
 		time.sleep(0.001)
-	print "archivo creado.."
+	print "archivo creado.. (7)"
 
 
 	#print "esperando ventana"
